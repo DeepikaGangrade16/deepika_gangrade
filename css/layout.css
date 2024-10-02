@@ -1,0 +1,1275 @@
+/*
+Nikolay Lechev
+Version: 1.0
+Author: Nikolay Lechev
+Author URI: http://www.nikolaylechev.com
+
+This website and it's design and code are the property of Nikolay Lechev, it is not a template that you can borrow, adapt or copy. Please exercise your own creativity and do your own thing.
+If you do steal this design and use it for yourself and I find out about it I will publicly name and shame you to the entire web design world and you'll
+never work again and your children will go hungry.
+
+*/
+
+
+/* =Table of Contents
+--------------------------------------------------------------
+	=Common Styles
+	=Typography Styles
+	=Content Styles
+	=Responsive Styles
+	=Animation
+	=404
+*/
+
+
+
+/* =Common Styles
+-------------------------------------------------------------- */
+
+ 
+
+img {
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+/* =Content Styles
+-------------------------------------------------------------- */
+
+.wrapper {
+	text-align: center;
+	position: absolute;
+	overflow: hidden;
+	display: table-cell;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.scene, .layer {
+	display: block;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.scene {
+	position: relative;
+	overflow: hidden;
+}
+.layer {
+	position: absolute;
+}
+.layer div {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.wedesign{ z-index:1024;}
+
+
+.boy_img .flake5 {  bottom: -33px;
+    position: absolute;
+    width: 100%;}
+/* Background */
+#home.parallax{ background: url(../images/repeat_bg.jpg)  repeat;  }
+.background {
+	background: url(../images/background.png) no-repeat 50% 100%;
+	bottom: -20px;
+	background-size: cover;
+	position: absolute;
+	width: 110%;
+	left: -5%;
+	top: -5%;
+}
+.triangles {
+	background: url(../images/triangles.png) no-repeat 50% 100%;
+	bottom: -20px;
+	background-size: cover;
+	position: absolute;
+	width: 110%;
+	left: -5%;
+	top: -5%;
+}
+.sphere img {
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-ms-transform: scale(0.7, 0.7);
+	transform: scale(0.7);
+}
+.middle_text {
+	margin-top:50px;
+}
+.landing-logo img{ margin-top:22px;}
+
+/* Flakes Sizing */
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img, .depth-7 img, .depth-8 img, .depth-9 img, .depth-10 img, .depth-11 img  , depth-16 img, depth-17 img{
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1, 1);
+	transform: scale(1);
+}
+ 
+/* Flakes Positioning */
+.set1.flake1 {
+	 bottom: 18%;
+    display: block;
+    left: 30%;
+    position: absolute;
+}
+.set5.flake2 {
+bottom: 47%;
+    display: block;
+    left: 36%;
+    position: absolute;
+}
+.set2.flake3 {
+	  bottom: 36%;
+    display: block;
+    left: 30%;
+    position: absolute;
+}
+.set3.flake4 {
+	 bottom: 37%;
+    display: block;
+    left: 19%;
+    position: absolute;
+}
+.set4.flake5 {
+bottom: 54%;
+    display: block;
+    left: 24%;
+    position: absolute;
+}
+.set6.flake1 {
+    bottom: 47%;
+    display: block;
+    position: absolute;
+    right: 21%;
+}
+.set7.flake5 {
+	  bottom: 43%;
+    display: block;
+    position: absolute;
+    right: 33%;
+}
+.set8.flake6 {
+   bottom: 50%;
+    display: block;
+    position: absolute;
+    right: 44%;
+}
+.set9.flake7 {
+  bottom: 29%;
+    display: block;
+    position: absolute;
+    right: 24%;
+}
+.set10.flake1 {
+   bottom: 59%;
+    display: block;
+    left: 64%;
+    position: absolute;
+}
+.set11.flake2  {
+ bottom: 22%;
+    display: block;
+    position: absolute;
+    right: 34%;
+}
+.set12.flake3 {
+  bottom: 57%;
+    display: block;
+    left: 41%;
+    position: absolute;
+}.set13.flake4 {
+      bottom: 27%;
+    display: block;
+    left: 10%;
+    position: absolute;
+}
+.set14.flake5 {
+	 bottom: 48%;
+    display: block;
+    left: 12%;
+    position: absolute;
+}
+.set16.flake5 {
+        bottom: 22%;
+    display: block;
+    left: 18%;
+    position: absolute;
+}
+.set18.flake5 {
+	  bottom: 11%;
+    display: block;
+    position: absolute;
+    right: 25%;
+}
+.set19.flake5 {
+	   bottom: 38%;
+    display: block;
+    position: absolute;
+    right: 14%;
+}
+.set20.flake5 {
+	 bottom: 8%;
+    display: block;
+    left: 16%;
+    position: absolute;
+}
+ .set21.flake5 {
+	 bottom: 23%;
+    display: block;
+    position: absolute;
+    right: 15%;
+}
+
+
+.bottom_img{    bottom: 0;
+    display: inline-table;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;}
+	
+ .bottom_img_inner{ display: table-cell;
+    float: none;
+    vertical-align: bottom;}
+
+
+.depth-1 img, .depth-2 img, .depth-3 img,.depth-4 img, .depth-5 img, .depth-7 img ,.depth-8 img, .depth-9 img, .depth-10 img,.depth-11 img, .depth-12 img, .depth-13 img , .depth-14 img ,.depth-15 img,  .depth-16 img, .depth-17 img,.depth-18 img ,.depth-19 img ,.depth-20 img ,.depth-21 img{ opacity:.8}
+
+
+/* =Responsive Styles
+-------------------------------------------------------------- */
+
+/* Landscape Phone */
+@media all and (min-width: 400px) {
+/* SIZES */
+.sphere img {
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	-ms-transform: scale(0.6, 0.6);
+	transform: scale(0.6);
+}
+/* POSITIONING */
+.depth-5 {
+	position: absolute;
+	right: -50%;
+	top: -50%;
+}
+ 
+}
+
+/* Tablet Portrait */
+@media all and (min-width: 700px) {
+/* SIZES */
+.sphere img {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1, 1);
+	transform: scale(1);
+}
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img,.depth-15 img , depth-16 img, depth-17 img , .depth-18 img,  .depth-19 img ,.depth-20 img ,.depth-21 img{
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8, 0.8);
+	transform: scale(0.8);
+}
+/* POSITIONING */
+.depth-5 {
+	right: -25%;
+	top: 3%;
+}
+ 
+}
+ @media all and (min-width: 900px) {
+/* SIZES */
+.sphere img {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1, 1);
+	transform: scale(1);
+}
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img, .depth-7 img, .depth-8 img, .depth-9 img, .depth-10 img, .depth-11 img  ,.depth-12 img ,.depth-13 img, .depth-14 img, .depth-15 img, depth-16 img, depth-17 img, .depth-18 img ,.depth-19 img ,.depth-20 img ,.depth-21 img{
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1, 1);
+	transform: scale(1);
+}
+/* POSITIONING */
+.depth-5 {
+	right: -25%;
+	top: 3%;
+}
+ 
+}
+ @media all and (min-width: 1300px) { .middle_text img{ width:45%;} .bottom_img_inner img{ width:40%;}
+ 
+ .boy_img .flake5 img
+ {  width:40%;} } 
+ @media all and (min-width: 1200px) {
+.sphere img {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1, 1);
+	transform: scale(1);
+}
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img,.depth-18 img ,.depth-19 img ,.depth-20 img ,.depth-21 img {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1, 1);
+	transform: scale(1);
+}
+/* POSITIONING */
+
+.depth-6  {
+		right: 1%;
+	left: 1%;
+	-webkit-animation: wave 10s 1s infinite linear;
+	-moz-animation: wave 10s 1s infinite linear;
+	animation: wave 10s 1s infinite linear;
+	}
+
+.depth-5 {
+	 right: 8%;
+    top: -1%;
+ 
+	-webkit-animation: wave 8s 0.1s infinite linear;
+	-moz-animation: wave 8s 0.1s infinite linear;
+	animation: wave 8s 0.1s infinite linear;
+}
+.depth-4 {
+ 
+	-webkit-animation: wave 6s 0.1s infinite linear;
+	-moz-animation: wave 6s 0.1s infinite linear;
+	animation: wave 6s 0.1s infinite linear;
+}
+.depth-3 {
+	-webkit-animation: wave 11s 0.1s infinite linear;
+	-moz-animation: wave 11s 0.1s infinite linear;
+	animation: wave 11s 0.1s infinite linear;
+}
+.depth-2 {
+	-webkit-animation: wave 10s 0.1s infinite linear;
+	-moz-animation: wave 10s 0.1s infinite linear;
+	animation: wave 10s 0.1s infinite linear;
+}
+.depth-1 {
+	-webkit-animation: wave 12s 0.1s infinite linear;
+	-moz-animation: wave 12s 0.1s infinite linear;
+	animation: wave 12s 0.1s infinite linear;
+}
+.depth-7 {
+	-webkit-animation: wave 13s 0.8s infinite linear;
+	-moz-animation: wave 13s 0.8s infinite linear;
+	animation: wave 13s 0.8s infinite linear;
+}
+
+.depth-8 {
+	-webkit-animation: wave 14s 0.2s infinite linear;
+	-moz-animation: wave 14s 0.2s infinite linear;
+	animation: wave 14s 0.2s infinite linear;
+}
+.depth-9 {
+	-webkit-animation: wave 15s 0.9s infinite linear;
+	-moz-animation: wave 15s 0.9s infinite linear;
+	animation: wave 15s 0.9s infinite linear;
+}
+.depth-10 {
+	-webkit-animation: wave 16s 0.3s infinite linear;
+	-moz-animation: wave 16s 0.3s infinite linear;
+	animation: wave 16s 0.3s infinite linear;
+}
+.depth-11 {
+	-webkit-animation: wave 17s 0.7s infinite linear;
+	-moz-animation: wave 17s 0.7s infinite linear;
+	animation: wave 17s 0.7s infinite linear;
+}
+.depth-12 {
+	-webkit-animation: wave 18s 0.6s infinite linear;
+	-moz-animation: wave 18s 0.6s infinite linear;
+	animation: wave 18s 0.6s infinite linear;
+}
+.depth-13 {
+	-webkit-animation: wave 19s 0.7s infinite linear;
+	-moz-animation: wave 19s 0.7s infinite linear;
+	animation: wave 19s 0.7s infinite linear;
+}
+.depth-14 {
+	-webkit-animation: wave 20s 0.5s infinite linear;
+	-moz-animation: wave 20s 0.5s infinite linear;
+	animation: wave 20s 0.5s infinite linear;
+}
+.depth-16 {-webkit-animation: wave 21s 0.6s infinite linear;
+	-moz-animation: wave 21s 0.6s infinite linear;
+	animation: wave 21s 0.6s infinite linear;}
+.depth-15 {-webkit-animation: wave 21s 0.3s infinite linear;
+	-moz-animation: wave 21s 0.3s infinite linear;
+	animation: wave 21s 0.3s infinite linear;}
+.depth-17  {-webkit-animation: wave 8s 0.6s infinite linear;
+	-moz-animation: wave 8s 0.6s infinite linear;
+	animation: wave 8s 0.6s infinite linear;}
+	.depth-18  {-webkit-animation: wave 10s 0.5s infinite linear;
+	-moz-animation: wave 10s 0.5s infinite linear;
+	animation: wave 10s 0.5s infinite linear;}
+	
+ .depth-19 img{-webkit-animation: wave 22s 0.3s infinite linear;
+	-moz-animation: wave 22s 0.3s infinite linear;
+	animation: wave 22s 0.3s infinite linear;}
+ 
+ 
+ 
+ .depth-20 img {-webkit-animation: wave 19s 0.8s infinite linear;
+	-moz-animation: wave 19s 0.8s infinite linear;
+	animation: wave 19s 0.8s infinite linear;}
+ 
+ 
+ 
+ .depth-21 img{-webkit-animation: wave 15s 0.7s infinite linear;
+	-moz-animation: wave 15s 0.7s infinite linear;
+	animation: wave 15s 0.7s infinite linear;}
+	
+	
+	
+}
+ @media all and (min-width: 1400px) {
+.depth-5 {
+	right: -10%;
+	top: -5%;
+}
+ 
+}
+ @media all and (min-width: 1920px) {
+}
+
+/* =Animation
+-------------------------------------------------------------- */
+
+@-webkit-keyframes wave {
+ 0% {
+ -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+ -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+ transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+}
+ 100% {
+ -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+ -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+ transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+}
+}
+ @-moz-keyframes wave {
+ 0% {
+ -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+ -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+ transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+}
+ 100% {
+ -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+ -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+ transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+}
+}
+ @-ms-keyframes wave {
+ 0% {
+ -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+ -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+ transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+}
+ 100% {
+ -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+ -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+ transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+}
+}
+ @keyframes wave {
+ 0% {
+ -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+ -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+ transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+}
+ 100% {
+ -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+ -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+ transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+}
+}
+/* =404
+-------------------------------------------------------------- */
+
+.snap {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/404-background.jpg) no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+.snap .line {
+	margin-bottom: 70px;
+}
+.button {
+	display: inline-block;
+	margin-top: 80px;
+	text-decoration: none;
+	font-family: "Montserrat", arial, sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 1em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #161a1b;
+	background: transparent;
+	border: 1px solid rgb(23,26,28);
+	border: 1px solid rgba(23,26,28,.3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 4px;
+	padding: 15px 25px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.button:hover {
+	background: rgb(23,26,28);
+	color: #fff;
+	border: 1px solid rgb(23,26,28);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+ @media all and (min-width: 700px) {
+.button {
+	font-size: 12px;
+	border-radius: 10px;
+	padding: 25px 45px;
+}
+ 
+}
+@media (max-height:450px){  .bottom_img_inner img{   width:230px !important;} .middle_text{ margin-top:28px;}
+.middle_text img{ width:35%;} }
+@media only screen and (min-width:737px) and (max-width:980px) {}
+ 
+@media (max-height:800px){
+	  .bottom_img_inner img{   width:500px;}  .middle_text img{ width:45%;}#home-content .scroll img { width:40px;} .depth-23.set23.flake5 > img{  width:40%;}} 
+@media only screen and (min-width:481px) and (max-width:736px) {
+.bottom_img_inner img{   width: 48%;} 
+#home-content .scroll img { width:40px;}
+.depth-23.set23.flake5 > img{  width:295px !important;}
+.set12, .set13 ,.set14,   .set19, .set20,.set21 { display:none !important;
+  
+}
+
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img, .depth-7 img, .depth-8 img, .depth-9 img, .depth-10 img, .depth-11 img,.depth-17 img, .depth-12 img  , .depth-16 img, .depth-18 img, .depth-15 img{
+	-webkit-transform: scale(.7);
+	-moz-transform: scale(.7);
+	-ms-transform: scale(.7, .7);
+	transform: scale(.7);
+}
+
+
+
+
+.set1.flake1 {
+	      bottom: 0;
+    display: block;
+    left: 16%;
+    position: absolute;
+}
+.set5.flake2 {
+     bottom: 47%;
+    display: block;
+    left: 33%;
+    position: absolute;
+}
+.set2.flake3 {
+	   bottom: 19%;
+    display: block;
+    left: 16%;
+    position: absolute;
+}
+.set3.flake4 {
+	 bottom: 34%;
+    display: block;
+    left: 21%;
+    position: absolute;
+}
+.set4.flake5 {
+ bottom: 40%;
+    display: block;
+    left: 8%;
+    position: absolute;
+}
+.set6.flake1 {
+        bottom: 39%;
+    display: block;
+    position: absolute;
+    right: 30%;
+}
+.set7.flake5 {
+	   bottom: 33%;
+    display: block;
+    position: absolute;
+    right: 14%;
+}
+.set8.flake6 {
+      bottom: 50%;
+    display: block;
+    position: absolute;
+    right: 21%;
+}
+.set9.flake7 {
+       bottom: 14%;
+    display: block;
+    position: absolute;
+    right: 24%;
+}
+.set10.flake1 {
+        bottom: 51%;
+    display: block;
+    left: 19%;
+    position: absolute;
+}
+.set11.flake2  {
+    bottom: 6%;
+    display: block;
+    position: absolute;
+    right: 11%;
+}
+.set12.flake3 {
+  bottom: 57%;
+    display: block;
+    left: 5%;
+    position: absolute;
+}.set13.flake4 {
+      bottom: 27%;
+    display: block;
+    left:5%;
+    position: absolute;
+}
+.set14.flake5 {
+	 bottom: 48%;
+    display: block;
+    left: 3%;
+    position: absolute;
+}
+.set16.flake5 {
+       bottom: 14%;
+    display: block;
+    left: 2%;
+    position: absolute;
+}
+.set18.flake5 {
+	  bottom: 11%;
+    display: block;
+    position: absolute;
+    right: 2%;
+}
+.set19.flake5 {
+	   bottom: 38%;
+    display: block;
+    position: absolute;
+    right: 2%;
+}
+.set20.flake5 {
+	 bottom: 8%;
+    display: block;
+    left: 0%;
+    position: absolute;
+}
+ .set21.flake5 {
+	 bottom: 23%;
+    display: block;
+    position: absolute;
+    right: 0%;
+}
+
+
+}
+@media only screen and (min-width:416px) and (max-width:480px) {
+	
+	
+	.bottom_img_inner img{   width: 48%;} 
+#home-content .scroll img { width:40px;}
+.depth-23.set23.flake5 > img{  width:295px !important;}
+.set12, .set13 ,.set14,   .set19, .set20,.set21 { display:none !important;
+  
+}
+
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img, .depth-7 img, .depth-8 img, .depth-9 img, .depth-10 img, .depth-11 img,.depth-17 img, .depth-12 img  , .depth-16 img, .depth-18 img, .depth-15 img{
+	-webkit-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5, .5);
+	transform: scale(.5);
+}
+
+
+
+
+.set1.flake1 {
+	      bottom: 0;
+    display: block;
+    left: 16%;
+    position: absolute;
+}
+.set5.flake2 {
+     bottom: 47%;
+    display: block;
+    left: 33%;
+    position: absolute;
+}
+.set2.flake3 {
+	   bottom: 19%;
+    display: block;
+    left: 16%;
+    position: absolute;
+}
+.set3.flake4 {
+	 bottom: 34%;
+    display: block;
+    left: 21%;
+    position: absolute;
+}
+.set4.flake5 {
+ bottom: 40%;
+    display: block;
+    left: 8%;
+    position: absolute;
+}
+.set6.flake1 {
+        bottom: 39%;
+    display: block;
+    position: absolute;
+    right: 30%;
+}
+.set7.flake5 {
+	   bottom: 33%;
+    display: block;
+    position: absolute;
+    right: 14%;
+}
+.set8.flake6 {
+      bottom: 50%;
+    display: block;
+    position: absolute;
+    right: 21%;
+}
+.set9.flake7 {
+       bottom: 14%;
+    display: block;
+    position: absolute;
+    right: 24%;
+}
+.set10.flake1 {
+        bottom: 51%;
+    display: block;
+    left: 19%;
+    position: absolute;
+}
+.set11.flake2  {
+    bottom: 6%;
+    display: block;
+    position: absolute;
+    right: 11%;
+}
+.set12.flake3 {
+  bottom: 57%;
+    display: block;
+    left: 5%;
+    position: absolute;
+}.set13.flake4 {
+      bottom: 27%;
+    display: block;
+    left:5%;
+    position: absolute;
+}
+.set14.flake5 {
+	 bottom: 48%;
+    display: block;
+    left: 3%;
+    position: absolute;
+}
+.set16.flake5 {
+       bottom: 14%;
+    display: block;
+    left: 2%;
+    position: absolute;
+}
+.set18.flake5 {
+	  bottom: 11%;
+    display: block;
+    position: absolute;
+    right: 2%;
+}
+.set19.flake5 {
+	   bottom: 38%;
+    display: block;
+    position: absolute;
+    right: 2%;
+}
+.set20.flake5 {
+	 bottom: 8%;
+    display: block;
+    left: 0%;
+    position: absolute;
+}
+ .set21.flake5 {
+	 bottom: 23%;
+    display: block;
+    position: absolute;
+    right: 0%;
+}
+
+
+}
+@media only screen and (min-width:600px) and (max-width:736px) {
+.bottom_img_inner img, .middle_text img{   width: 290px !important;}
+.depth-23.set23.flake5 > img {
+    width: 290px !important;
+}.middle_text img {
+    width: 41%;
+}
+#home-content .scroll img {
+    width: 30px;
+    position: relative;
+    top: 16px;
+}
+.set6.flake1 {
+    bottom: 30%;
+    display: block;
+    position: absolute;
+    right: 30%;
+}
+.set5.flake2 {
+    bottom: 35%;
+    display: block;
+    left: 33%;
+    position: absolute;
+}
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img, .depth-7 img, .depth-8 img, .depth-9 img, .depth-10 img, .depth-11 img,.depth-17 img, .depth-12 img  , .depth-16 img, .depth-18 img, .depth-15 img{
+	-webkit-transform: scale(.6);
+	-moz-transform: scale(.6);
+	-ms-transform: scale(.6, .6);
+	transform: scale(.6);
+}
+}
+@media only screen and (min-width:416px) and (max-width:599px) {
+.bottom_img_inner img, .middle_text img{   width: 200px !important;}
+.depth-23.set23.flake5 > img {
+    width: 200px !important;
+}.middle_text img {
+    width: 41%;
+}
+#home-content .scroll img {
+    width: 30px;
+    position: relative;
+    top: 16px;
+}
+.set6.flake1 {
+    bottom: 30%;
+    display: block;
+    position: absolute;
+    right: 30%;
+}
+.set5.flake2 {
+    bottom: 35%;
+    display: block;
+    left: 33%;
+    position: absolute;
+}
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img, .depth-7 img, .depth-8 img, .depth-9 img, .depth-10 img, .depth-11 img,.depth-17 img, .depth-12 img  , .depth-16 img, .depth-18 img, .depth-15 img{
+	-webkit-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5, .5);
+	transform: scale(.5);
+}
+}
+@media only screen and (min-width:980px) and (max-width:1024px) {
+  
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img, .depth-7 img, .depth-8 img, .depth-9 img, .depth-10 img, .depth-11 img  ,.depth-12 img ,.depth-13 img, .depth-14 img, .depth-15 img, depth-16 img, depth-17 img, .depth-18 img ,.depth-19 img ,.depth-20 img ,.depth-21 img{
+	-webkit-transform: scale(.7);
+	-moz-transform: scale(.7);
+	-ms-transform: scale(.7, .7);
+	transform: scale(.7);
+}
+}
+@media only screen and (min-width:737px) and (max-width:979px) {  
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img, .depth-7 img, .depth-8 img, .depth-9 img, .depth-10 img, .depth-11 img,.depth-17 img, .depth-12 img  , .depth-16 img, .depth-18 img, .depth-15 img, .depth-19 img, .depth-20 img, .depth-21 img, .depth-13 img,.depth-14 img{
+	-webkit-transform: scale(.7);
+	-moz-transform: scale(.7);
+	-ms-transform: scale(.7, .7);
+	transform: scale(.7);
+}
+ 
+.bottom_img_inner img, .middle_text img{   width:500px !important;}
+
+.depth-23.set23.flake5 > img{  width:500px !important;}
+.set13.flake4 {
+    bottom: 27%;
+    display: block;
+    left: 5%;
+    position: absolute;
+}
+.set16.flake5 {
+    bottom: 18%;
+    display: block;
+    left: 13%;
+    position: absolute;
+}
+.set18.flake5 {
+    bottom: 8%;
+    display: block;
+    position: absolute;
+    right: 19%;
+}
+.set20.flake5 {
+    bottom: 4%;
+    display: block;
+    left: 11%;
+    position: absolute;
+}
+.set21.flake5 {
+    bottom: 19%;
+    display: block;
+    position: absolute;
+    right: 11%;
+}
+.set13.flake4 {
+    bottom: 30%;
+    display: block;
+    left: 5%;
+    position: absolute;
+}
+.set11.flake2 {
+    bottom: 17%;
+    display: block;
+    position: absolute;
+    right: 28%;
+
+ 
+}
+.set12.flake3 {
+    bottom: 40%;
+    display: block;
+    left: 42%;
+    position: absolute;
+}
+.set10.flake1 {
+    bottom: 56%;
+    display: block;
+    left: 60%;
+    position: absolute;
+}
+.set4.flake5 {
+    bottom: 25%;
+    display: block;
+    left: 18%;
+    position: absolute;
+}
+.set3.flake4 {
+    bottom: 40%;
+    display: block;
+    left: 17%;
+    position: absolute;
+}
+.set1.flake1 {
+    bottom: 10%;
+    display: block;
+    left: 24%;
+    position: absolute;
+}
+.set8.flake6 {
+    bottom: 56%;
+    display: block;
+    position: absolute;
+    right: 44%;
+}
+.set5.flake2 {
+    bottom: 53%;
+    display: block;
+    left: 25%;
+    position: absolute;
+}}
+@media only screen and (min-width:384px) and (max-width:415px) {
+	.bottom_img_inner img, .middle_text img{   width: 370px !important;}
+
+
+.landing-logo img{ max-width:60%; } .middle_text{ margin-top:28px;}
+
+.depth-23.set23.flake5 > img{  width:300px !important;} 
+#home-content .scroll img { width:40px;}
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img, .depth-7 img, .depth-8 img, .depth-9 img, .depth-10 img, .depth-11 img,.depth-17 img, .depth-12 img  , .depth-16 img, .depth-18 img, .depth-15 img{
+	-webkit-transform: scale(.6);
+	-moz-transform: scale(.6);
+	-ms-transform: scale(.6, .6);
+	transform: scale(.6);
+}
+.set12, .set13 ,.set14, .set18, .set19, .set20,.set21 { display:none !important;
+  
+}
+
+.set1.flake1 {
+    bottom: 3%;
+    display: block;
+    left: 5%;
+    position: absolute;
+}
+.set5.flake2 {
+    bottom: 40%;
+    display: block;
+    left: 41%;
+    position: absolute;
+}
+.set2.flake3 {
+    bottom: 17%;
+    display: block;
+    left: -2%;
+    position: absolute;
+}
+.set3.flake4 {
+    bottom: 31%;
+    display: block;
+    left: 27%;
+    position: absolute;
+}
+.set4.flake5 {
+    bottom: 32%;
+    display: block;
+    left: 10%;
+    position: absolute;
+}
+.set6.flake1 {
+    bottom: 27%;
+    display: block;
+    position: absolute;
+    right: 27%;
+}
+.set7.flake5 {
+    bottom: 36%;
+    display: block;
+    position: absolute;
+    right: 9%;
+}
+.set8.flake6 {
+    bottom: 42%;
+    display: block;
+    position: absolute;
+    right: 21%;
+}
+.set9.flake7 {
+    bottom: 20%;
+    display: block;
+    position: absolute;
+    right: 5%;
+}
+.set10.flake1 {
+    bottom: 42%;
+    display: block;
+    left: 68px;
+    position: absolute;
+}
+.set11.flake2 {
+    bottom: 4%;
+    display: block;
+    position: absolute;
+    right: 16%;
+}
+.set12.flake3 {
+  bottom: 57%;
+    display: block;
+    left: 5%;
+    position: absolute;
+}.set13.flake4 {
+      bottom: 27%;
+    display: block;
+    left:5%;
+    position: absolute;
+}
+.set14.flake5 {
+	 bottom: 48%;
+    display: block;
+    left: 3%;
+    position: absolute;
+}
+.set16.flake5 {
+    bottom: 27%;
+    display: block;
+    left: -5%;
+    position: absolute;
+}
+.set18.flake5 {
+	  bottom: 11%;
+    display: block;
+    position: absolute;
+    right: 2%;
+}
+.set19.flake5 {
+	   bottom: 38%;
+    display: block;
+    position: absolute;
+    right: 2%;
+}
+.set20.flake5 {
+	 bottom: 8%;
+    display: block;
+    left: 0%;
+    position: absolute;
+}
+ .set21.flake5 {
+	 bottom: 23%;
+    display: block;
+    position: absolute;
+    right: 0%;
+}
+
+
+
+}
+ @media all and (max-width:383px) {
+.landing-logo img{ max-width:60%; } .middle_text{ margin-top:28px;}
+.bottom_img_inner img, .middle_text img{   width: 310px !important;}
+.depth-23.set23.flake5 > img{  width:300px !important;} 
+#home-content .scroll img { width:40px;}
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img, .depth-7 img, .depth-8 img, .depth-9 img, .depth-10 img, .depth-11 img,.depth-17 img, .depth-12 img  , .depth-16 img, .depth-18 img, .depth-15 img{
+	-webkit-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5, .5);
+	transform: scale(.5);
+}
+.set12, .set13 ,.set14, .set18, .set19, .set20,.set21 { display:none !important;
+  
+}
+
+
+
+
+
+
+.set1.flake1 {
+  bottom: 3%;
+    display: block;
+    left: 2%;
+    position: absolute;
+}
+.set5.flake2 {
+  bottom: 52%;
+    display: block;
+    left: 31%;
+    position: absolute;
+}
+.set2.flake3 {
+	 bottom: 17%;
+    display: block;
+    left: -7%;
+    position: absolute;
+}
+.set3.flake4 {
+	    bottom: 37%;
+    display: block;
+    left: 27%;
+    position: absolute;
+}
+.set4.flake5 {
+      bottom: 38%;
+    display: block;
+    left: 5%;
+    position: absolute;
+}
+.set6.flake1 {
+     bottom: 37%;
+    display: block;
+    position: absolute;
+    right: 19%;
+}
+.set7.flake5 {
+	 bottom: 36%;
+    display: block;
+    position: absolute;
+    right: -5%;
+}
+.set8.flake6 {
+    bottom: 49%;
+    display: block;
+    position: absolute;
+    right: 17%;
+}
+.set9.flake7 {
+     bottom: 25%;
+    display: block;
+    position: absolute;
+    right: 3%;
+}
+.set10.flake1 {
+      bottom: 50%;
+    display: block;
+    left: 12px;
+    position: absolute;
+}
+.set11.flake2  {
+     bottom: 10%;
+    display: block;
+    position: absolute;
+    right: 5%;
+}
+.set12.flake3 {
+  bottom: 57%;
+    display: block;
+    left: 5%;
+    position: absolute;
+}.set13.flake4 {
+      bottom: 27%;
+    display: block;
+    left:5%;
+    position: absolute;
+}
+.set14.flake5 {
+	 bottom: 48%;
+    display: block;
+    left: 3%;
+    position: absolute;
+}
+.set16.flake5 {
+     bottom: 27%;
+    display: block;
+    left: -5%;
+    position: absolute;
+}
+.set18.flake5 {
+	  bottom: 11%;
+    display: block;
+    position: absolute;
+    right: 2%;
+}
+.set19.flake5 {
+	   bottom: 38%;
+    display: block;
+    position: absolute;
+    right: 2%;
+}
+.set20.flake5 {
+	 bottom: 8%;
+    display: block;
+    left: 0%;
+    position: absolute;
+}
+ .set21.flake5 {
+	 bottom: 23%;
+    display: block;
+    position: absolute;
+    right: 0%;
+}
+
+
+
+ }
