@@ -1,0 +1,95 @@
+ 
+ @media all and (max-width: 980px){.nav-normal ul li a{font-size:15px;margin-left:8px;margin-right:8px}}
+@media all and (max-width: 994px){.div-align-middle{display:block;width:100%;text-align:center}body .small-screen{display:block!important}.big-screen{display:none!important}.div-align-middle .btn.pull-right{float:none!important}.middle_box{border:0 none}.container_box{padding:25px 0 45px}.directors_section .directorM{margin:0 auto;float:none!important}.chartM{padding-top:20px;padding-bottom:20px}
+ 
+}
+@media all and (max-width: 768px){#nav-desktop,#nav-desktop-sticky-wrapper{display:none!important}#nav-mobile-sticky-wrapper{display:block;height:69px!important}.nav-mobile ul{display:none;width:100%;padding:0}.nav-mobile ul li{float:left;width:100%;text-align:left;margin:0;border-top:1px dotted #d1d1d1;line-height:2.5;vertical-align:middle}.nav-mobile ul li a{margin:0}.nav-mobile .mobile-btn{float:right;line-height:70px;vertical-align:middle;font-size:28px;cursor:pointer}.nav-mobile .mobile-btn .icon-align-justify{color:#fff}.page{padding:40px 0 0}.pad-top{padding-top:20px}.pad-bottom{padding-bottom:20px}.fullwidth{margin:40px 0}.title h1{font-size:50px}.title h2{font-size:30px}.title h3{font-size:22px}.logo{max-width:200px}.home-text-slider .bxslider{font-size:50px}.post{margin:0 0 60px}.post .post-title{margin:15px 0;font-size:20px}.categories li a{font-size:14px}.categories li a:before{content:'+';font-size:16px}.pad-right{padding-left:0;margin-top:15px}}
+@media all and (max-width: 767px){.container{max-width:570px}.service-item.float{text-align:left}.service-item.float span{float:left}.title h1{font-size:45px}.title h2{font-size:28px}.title h3{font-size:18px}.logo{max-width:180px}.home-text-slider .bxslider{font-size:40px}footer#footer .col-xs-6{width:100%}footer#footer ul.socicals{text-align:center}footer#footer #copyright{text-align:center}.socicals li{text-align:left}}
+@media all and (max-width: 568px){.container{max-width:538px}.logo{max-width:140px}.home-text-slider{margin-top:15px}.home-text-slider .bxslider{font-size:38px}.call-action a,.call-action a i{margin:15px 10px 0 0}}
+@media only screen and (min-width:481px) and (max-width:980px) {
+	.how_we_work {
+    background: url("../images/how_we_work_bg.jpg") repeat fixed 0 0 /auto 100% rgba(0, 0, 0, 0);
+    padding-bottom: 20px;
+    background-position: center;
+}
+.portfolio_section {
+    background: url("../images/wall_bg.png") repeat scroll center / auto transparent;
+}
+.contact_section {
+    background: url("../images/map_img.jpg") repeat scroll center center/ auto 100% #fff;
+    padding-top: 50px;
+}
+ .work_section {
+	background: url("../images/work_bottom_bg.jpg")  repeat scroll center center / auto #fff;
+}
+.inner_contact {
+    background: url("../images/Title_bg/form_bg.png") repeat scroll center center / auto 100% #fff;
+    padding-top: 10px;
+}
+body .da-slider_bg {
+    background: url("../images/award_bg.jpg") no-repeat scroll center center / auto 100% transparent;
+}
+.ih-item.circle .img,.ih-item.circle .info img{ width:150px!important; height:150px !important;}
+}
+@media all and (max-width: 480px){.glossy-square-gray .slide-wrapper{width:90%!important}.container{max-width:450px}.col-xs-6{width:100%}.title h1{font-size:40px}.title h2{font-size:26px}.title h3{font-size:18px}.logo{max-width:160px}.home-text-slider .bxslider{font-size:35px}#timeline:before{display:none}#dates{display:none}#issues{padding:50px 0}#next,#prev{left:48%}.post{margin:0 0 60px}.post .post-title{margin:15px 0;font-size:20px}.categories li a{font-size:14px}.categories li a:before{content:'+';font-size:16px}
+ 
+
+.home-page .title h1{ margin:0px; padding:0px;}
+.home-page .title{ padding:10px 0px; }
+.how_we_work {
+    background: url("../images/how_we_work_bg.jpg") repeat fixed 0 0 /auto 100% rgba(0, 0, 0, 0);
+    padding-bottom: 20px;
+    background-position: center;
+}
+.portfolio_section {
+    background: url("../images/wall_bg.png") repeat scroll center / auto transparent;
+}
+.contact_section {
+    background: url("../images/map_img.jpg") repeat scroll center center/ auto 100% #fff;
+    padding-top: 50px;
+}
+ .work_section {
+	background: url("../images/work_bottom_bg.jpg")  repeat scroll center center / auto #fff;
+}
+.inner_contact {
+    background: url("../images/Title_bg/form_bg.png") repeat scroll center center / auto 100% #fff;
+    padding-top: 10px;
+}
+.how_we_work img{ max-width:70%;}
+#portfolio-filter .row  { margin-top:0px;}
+.services_effect h3.sub-title { margin-top:0px;}
+.our_client {
+     padding:25px 0;
+}
+.WWR_img{   padding: 0 20px;}
+.title_inner_page h1{ font-size:50px;    padding-bottom: 10px;}
+.inner_page_title p{ font-size:16px;}
+.about_title h1{ font-size:50px;}
+.about_title{ padding-top:0px;} 
+.big-text{     padding-bottom: 10px; font-size:50px;}
+.innerpage .title {
+    padding: 20px 0;
+}
+.page.beliefs_section{ padding:0px;}
+.page.inner_page_title{ padding:10px 0px;}
+ .page.inner_page_title{ padding:30px 0 20px;} 
+ .small_title h1{ margin:0px; font-size:24px;}
+.small_title {
+    padding: 30px 0 25px;
+}
+body .da-slider_bg {
+    background: url("../images/award_bg.jpg") no-repeat scroll center center / auto 100% transparent;
+}
+.our_team{ padding:0px;}
+.footer#footer h3{ margin: 25px 0 17px;}
+.about_page .ih-item.circle, .about_page .beliefs_section .ih-item.circle.effect11 .img, .about_page .beliefs_section .ih-item.circle.effect11 .info{ height:150px; width:150px;}
+.WWR_content{ padding-top:0px;}
+.page.blog_page{ padding:0px;}
+.inner_target img{     max-width: 60%;}
+
+.toggle-foot-outer{position:relative; width:100%; float:left; }
+}
+@media all and (max-width: 384px){.container{max-width:354px}.title h1{width:100%;display:block}.title h1 + h3{width:100%;display:block}.work_section a img{width:100%}.sl-slider-wrapper blockquote p{font-size:13px}body .demo-1 .sl-slide h2{font-size:14px}.portfolio-filter-list li{margin:5px 6px}#portfolio-filter{margin:0 0 8px}
+ }
+@media all and (max-width: 320px){.container{max-width:300px}.title h1{font-size:30px}.title h2{font-size:24px}.title h3{font-size:18px}.logo{max-width:120px}.home-text-slider .bxslider{font-size:30px}
+}
